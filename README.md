@@ -28,6 +28,7 @@ Disminución de errores humanos.
 Detección temprana de defectos.
 Incremento en la eficiencia operativa.
 Apoyo a estrategias de Manufactura Inteligente e Industria 4.0.
+
 📊 Dataset
 Descripción
 El conjunto de datos contiene registros de inspección dimensional de piezas industriales.
@@ -66,6 +67,7 @@ Software
 Python 3.11+
 Jupyter Notebook
 Google Colab
+
 📦 Dependencias
 pip install transformers datasets huggingface_hub
 pip install scikit-learn xgboost lightgbm openpyxl
@@ -81,15 +83,18 @@ Limpieza de datos.
 Conversión de variables.
 Extracción de características temporales.
 Codificación de etiquetas.
+
 3. División del conjunto de datos
 Entrenamiento: 80%
 Prueba: 20%
+
 4. Entrenamiento de modelos
 Implementación de:
 
 XGBoost
 Random Forest
 LightGBM
+
 5. Evaluación
 Cálculo de:
 
@@ -98,6 +103,7 @@ Precision
 Recall
 F1-Score
 Latencia
+
 6. Comparación
 Análisis cuantitativo y cualitativo del desempeño de cada modelo.
 
@@ -108,6 +114,7 @@ Precision	Exactitud de las predicciones positivas
 Recall	Capacidad para detectar casos positivos
 F1-Score	Balance entre Precision y Recall
 Latencia	Tiempo requerido para entrenamiento
+
 🤖 Modelos Evaluados
 Random Forest
 Modelo basado en múltiples árboles de decisión que combina las predicciones mediante votación.
@@ -116,6 +123,7 @@ Aplicaciones
 Clasificación industrial.
 Detección de anomalías.
 Control de calidad.
+
 XGBoost
 Algoritmo de Gradient Boosting ampliamente utilizado en aplicaciones empresariales e industriales.
 
@@ -123,6 +131,7 @@ Aplicaciones
 Machine Learning tabular.
 Sistemas predictivos.
 Optimización de procesos.
+
 LightGBM
 Implementación eficiente de Gradient Boosting diseñada para alto rendimiento computacional.
 
@@ -130,25 +139,30 @@ Aplicaciones
 Clasificación masiva.
 Sistemas en tiempo real.
 Big Data.
+
 📊 Resultados Experimentales
 Modelo	       Accuracy	  Precision     Recall	  F1-Score	Latencia
 Random Forest	98.8 %	   100 %	 97.5 %	   98.7 %	  0.50 s
 LightGBM	95.0 %	   92.8 %	 97.5 %	   95.1 %	  0.02 s
 XGBoost	        95.0 %	   95.0 %	 95.0 %	   95.0 %	  0.02 s
+
 ⚖️ Análisis de Trade-Offs
 Comparativa Precisión vs Eficiencia
 Modelo	Ventajas	Desventajas
 Random Forest	Mayor Accuracy, Precision y F1-Score. Menos errores de clasificación.	Mayor latencia y uso de memoria.
 LightGBM	Entrenamiento rápido. Excelente escalabilidad. Bajo consumo de recursos.	Menor precisión global.
 XGBoost	Buen equilibrio entre rendimiento y velocidad. Amplio soporte industrial.	No supera a Random Forest en precisión ni a LightGBM en velocidad.
+
 Conclusión del Trade-Off
 Existe una relación directa entre rendimiento predictivo y costo computacional.
 
 Random Forest prioriza la precisión.
 LightGBM prioriza la velocidad.
 XGBoost ofrece una alternativa equilibrada.
+
 ✅ Modelo Recomendado
 Random Forest
+
 Justificación
 El modelo obtuvo los mejores resultados globales en todas las métricas analizadas:
 
@@ -162,6 +176,7 @@ Aunque su tiempo de entrenamiento fue superior al de LightGBM y XGBoost, la dife
 
 ⚠️ Riesgos y Limitaciones
 Riesgos Técnicos
+
 Sobreajuste
 El modelo puede aprender patrones específicos del conjunto de entrenamiento.
 
@@ -198,13 +213,17 @@ Act4_HuggingFace_Industrial_Quality
 │
 └── docs
     └── Analisis_Comparativo_Act4.docx
+
 🚀 Cómo Ejecutar el Proyecto
 Clonar el repositorio
 git clone https://github.com/usuario/repositorio.git
+
 Instalar dependencias
 pip install -r requirements.txt
+
 Abrir Notebook
 notebooks/Act4_HuggingFace_Medicion_Piezas.ipynb
+
 Ejecutar todas las celdas
 Al finalizar se generará automáticamente:
 
@@ -212,6 +231,7 @@ metricas_comparativas.csv
 matrices de confusión
 gráficos comparativos
 ranking de modelos
+
 🏆 Conclusiones
 El análisis comparativo demostró que los tres modelos son capaces de clasificar correctamente piezas industriales con altos niveles de precisión. Sin embargo, Random Forest obtuvo el mejor desempeño global, alcanzando la mayor Accuracy, Precision y F1-Score.
 
