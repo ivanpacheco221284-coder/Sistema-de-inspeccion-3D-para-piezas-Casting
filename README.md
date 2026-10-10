@@ -73,6 +73,7 @@ Google Colab
 pip install transformers datasets huggingface_hub
 pip install scikit-learn xgboost lightgbm openpyxl
 pip install pandas numpy matplotlib seaborn
+
 🔎 Metodología
 La metodología implementada consta de las siguientes etapas:
 
