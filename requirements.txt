@@ -1,0 +1,11 @@
+Versiones de las librerías utilizadas:
+- PyTorch: 2.11.0+cu130
+- Transformers: 5.18.0
+- Datasets: 4.8.5
+- Hugging Face Hub: 1.33.0
+- Scikit-Learn: 1.6.1
+- XGBoost: 3.4.1
+- LightGBM: 4.6.0
+- Pandas: 2.2.3
+- Matplotlib: 3.10.0
+- Seaborn: 0.13.2
