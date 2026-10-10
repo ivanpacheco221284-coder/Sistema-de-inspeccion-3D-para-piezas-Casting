@@ -1,7 +1,7 @@
 
 Clasificación Inteligente de Piezas Industriales mediante Machine Learning y Hugging Face
-Autor
-Pablo Iván Pacheco García
+
+Autor:     Pablo Iván Pacheco García
 Matrícula: AL07181329
 
 📋 Resumen Ejecutivo
