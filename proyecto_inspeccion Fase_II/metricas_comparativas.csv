@@ -1,0 +1,4 @@
+Modelo,Accuracy,Precision,Recall,F1Score,Latencia(s)
+Random Forest,0.9875,1,0.975,0.987341772,0.506859779
+LightGBM,0.95,0.928571429,0.975,0.951219512,0.028707027
+XGBoost,0.95,0.95,0.95,0.95,0.035530806
